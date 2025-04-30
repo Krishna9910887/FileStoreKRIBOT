@@ -10,17 +10,17 @@ API_ID = int(os.environ.get("API_ID", "27705761"))
 API_HASH = os.environ.get("API_HASH", "822cb334ca4527a134aae97f9fe44fd6")
 
 
-OWNER_ID = int(os.environ.get("OWNER_ID", "5446367898"))
-DB_URL = os.environ.get("DB_URL", "mongodb+srv://Krishna:krishna@cluster0.ecime.mongodb.net/")
+OWNER_ID = int(os.environ.get("OWNER_ID", ""))
+DB_URL = os.environ.get("DB_URL", ")
 JOIN_REQ_DB = os.environ.get("JOIN_REQ_DB", DB_URL)
 DB_NAME = os.environ.get("DB_NAME", "Madflix-Files")
 
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002687711038"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
 
 
-FILE_AUTO_DELETE = int(os.getenv("FILE_AUTO_DELETE", "1300")) # auto delete in seconds
+FILE_AUTO_DELETE = int(os.getenv("FILE_AUTO_DELETE", "1800")) # auto delete in seconds
 
 
 PORT = os.environ.get("PORT", "8000")
